@@ -1,0 +1,54 @@
+F:\School\Lab3\ICT711_Lab3\ICT711_Lab3\bin\Debug\ICT711_Lab3.exe.config
+F:\School\Lab3\ICT711_Lab3\ICT711_Lab3\bin\Debug\ICT711_Lab3.exe
+F:\School\Lab3\ICT711_Lab3\ICT711_Lab3\bin\Debug\ICT711_Lab3.pdb
+F:\School\Lab3\ICT711_Lab3\ICT711_Lab3\obj\Debug\ICT711_Lab3.csprojResolveAssemblyReference.cache
+F:\School\Lab3\ICT711_Lab3\ICT711_Lab3\obj\Debug\ICT711_Lab3.Form1.resources
+F:\School\Lab3\ICT711_Lab3\ICT711_Lab3\obj\Debug\ICT711_Lab3.Properties.Resources.resources
+F:\School\Lab3\ICT711_Lab3\ICT711_Lab3\obj\Debug\ICT711_Lab3.csproj.GenerateResource.Cache
+F:\School\Lab3\ICT711_Lab3\ICT711_Lab3\obj\Debug\ICT711_Lab3.exe
+F:\School\Lab3\ICT711_Lab3\ICT711_Lab3\obj\Debug\ICT711_Lab3.pdb
+D:\School\School\ICT-711\Assignments\ICT711_Lab3\Lab3\ICT711_Lab3\ICT711_Lab3\bin\Debug\ICT711_Lab3.exe.config
+D:\School\School\ICT-711\Assignments\ICT711_Lab3\Lab3\ICT711_Lab3\ICT711_Lab3\obj\Debug\ICT711_Lab3.exe
+D:\School\School\ICT-711\Assignments\ICT711_Lab3\Lab3\ICT711_Lab3\ICT711_Lab3\obj\Debug\ICT711_Lab3.pdb
+D:\School\School\ICT-711\Assignments\ICT711_Lab3\Lab3\ICT711_Lab3\ICT711_Lab3\bin\Debug\ICT711_Lab3.exe
+D:\School\School\ICT-711\Assignments\ICT711_Lab3\Lab3\ICT711_Lab3\ICT711_Lab3\bin\Debug\ICT711_Lab3.pdb
+D:\School\School\ICT-711\Assignments\ICT711_Lab3\Lab3\ICT711_Lab3\ICT711_Lab3\obj\Debug\ICT711_Lab3.csprojResolveAssemblyReference.cache
+D:\School\School\ICT-711\Assignments\ICT711_Lab3\Lab3\ICT711_Lab3\ICT711_Lab3\obj\Debug\ICT711_Lab3.Form1.resources
+D:\School\School\ICT-711\Assignments\ICT711_Lab3\Lab3\ICT711_Lab3\ICT711_Lab3\obj\Debug\ICT711_Lab3.Properties.Resources.resources
+D:\School\School\ICT-711\Assignments\ICT711_Lab3\Lab3\ICT711_Lab3\ICT711_Lab3\obj\Debug\ICT711_Lab3.csproj.GenerateResource.Cache
+C:\Users\mjdupuis1\Desktop\ICT711_Lab3\bin\Debug\ICT711_Lab3.exe.config
+C:\Users\mjdupuis1\Desktop\ICT711_Lab3\obj\Debug\ICT711_Lab3.exe
+C:\Users\mjdupuis1\Desktop\ICT711_Lab3\obj\Debug\ICT711_Lab3.pdb
+C:\Users\mjdupuis1\Desktop\ICT711_Lab3\obj\Debug\ICT711_Lab3.csprojResolveAssemblyReference.cache
+C:\Users\mjdupuis1\Desktop\ICT711_Lab3\obj\Debug\ICT711_Lab3.Form1.resources
+C:\Users\mjdupuis1\Desktop\ICT711_Lab3\obj\Debug\ICT711_Lab3.Properties.Resources.resources
+C:\Users\mjdupuis1\Desktop\ICT711_Lab3\obj\Debug\ICT711_Lab3.csproj.GenerateResource.Cache
+C:\Users\mjdupuis1\Desktop\ICT711_Lab3\bin\Debug\ICT711_Lab3.exe
+C:\Users\mjdupuis1\Desktop\ICT711_Lab3\bin\Debug\ICT711_Lab3.pdb
+C:\Users\Spencer\Documents\Whitney's Documents\School\C# 2\Lab3\Lab 3 - November 27\ICT711_Lab3\bin\Debug\ICT711_Lab3.exe.config
+C:\Users\Spencer\Documents\Whitney's Documents\School\C# 2\Lab3\Lab 3 - November 27\ICT711_Lab3\obj\Debug\ICT711_Lab3.exe
+C:\Users\Spencer\Documents\Whitney's Documents\School\C# 2\Lab3\Lab 3 - November 27\ICT711_Lab3\obj\Debug\ICT711_Lab3.pdb
+C:\Users\Spencer\Documents\Whitney's Documents\School\C# 2\Lab3\Lab 3 - November 27\ICT711_Lab3\bin\Debug\ICT711_Lab3.exe
+C:\Users\Spencer\Documents\Whitney's Documents\School\C# 2\Lab3\Lab 3 - November 27\ICT711_Lab3\bin\Debug\ICT711_Lab3.pdb
+C:\Users\Spencer\Documents\Whitney's Documents\School\C# 2\Lab3\Lab 3 - November 27\ICT711_Lab3\obj\Debug\ICT711_Lab3.csprojResolveAssemblyReference.cache
+C:\Users\Spencer\Documents\Whitney's Documents\School\C# 2\Lab3\Lab 3 - November 27\ICT711_Lab3\obj\Debug\ICT711_Lab3.Form1.resources
+C:\Users\Spencer\Documents\Whitney's Documents\School\C# 2\Lab3\Lab 3 - November 27\ICT711_Lab3\obj\Debug\ICT711_Lab3.Properties.Resources.resources
+C:\Users\Spencer\Documents\Whitney's Documents\School\C# 2\Lab3\Lab 3 - November 27\ICT711_Lab3\obj\Debug\ICT711_Lab3.csproj.GenerateResource.Cache
+C:\Users\mjdupuis1\Desktop\Lab 3 - FINAL\ICT711_Lab3\bin\Debug\ICT711_Lab3.exe.config
+C:\Users\mjdupuis1\Desktop\Lab 3 - FINAL\ICT711_Lab3\obj\Debug\ICT711_Lab3.exe
+C:\Users\mjdupuis1\Desktop\Lab 3 - FINAL\ICT711_Lab3\obj\Debug\ICT711_Lab3.pdb
+C:\Users\mjdupuis1\Desktop\Lab 3 - FINAL\ICT711_Lab3\bin\Debug\ICT711_Lab3.exe
+C:\Users\mjdupuis1\Desktop\Lab 3 - FINAL\ICT711_Lab3\bin\Debug\ICT711_Lab3.pdb
+C:\Users\mjdupuis1\Desktop\Lab 3 - FINAL\ICT711_Lab3\obj\Debug\ICT711_Lab3.csprojResolveAssemblyReference.cache
+C:\Users\mjdupuis1\Desktop\Lab 3 - FINAL\ICT711_Lab3\obj\Debug\ICT711_Lab3.Form1.resources
+C:\Users\mjdupuis1\Desktop\Lab 3 - FINAL\ICT711_Lab3\obj\Debug\ICT711_Lab3.Properties.Resources.resources
+C:\Users\mjdupuis1\Desktop\Lab 3 - FINAL\ICT711_Lab3\obj\Debug\ICT711_Lab3.csproj.GenerateResource.Cache
+C:\Users\Spencer\Documents\Whitney's Documents\School\C# 2\Lab3\Lab3 - FINAL\ICT711_Lab3\bin\Debug\ICT711_Lab3.exe.config
+C:\Users\Spencer\Documents\Whitney's Documents\School\C# 2\Lab3\Lab3 - FINAL\ICT711_Lab3\obj\Debug\ICT711_Lab3.exe
+C:\Users\Spencer\Documents\Whitney's Documents\School\C# 2\Lab3\Lab3 - FINAL\ICT711_Lab3\obj\Debug\ICT711_Lab3.pdb
+C:\Users\Spencer\Documents\Whitney's Documents\School\C# 2\Lab3\Lab3 - FINAL\ICT711_Lab3\bin\Debug\ICT711_Lab3.exe
+C:\Users\Spencer\Documents\Whitney's Documents\School\C# 2\Lab3\Lab3 - FINAL\ICT711_Lab3\bin\Debug\ICT711_Lab3.pdb
+C:\Users\Spencer\Documents\Whitney's Documents\School\C# 2\Lab3\Lab3 - FINAL\ICT711_Lab3\obj\Debug\ICT711_Lab3.csprojResolveAssemblyReference.cache
+C:\Users\Spencer\Documents\Whitney's Documents\School\C# 2\Lab3\Lab3 - FINAL\ICT711_Lab3\obj\Debug\ICT711_Lab3.Form1.resources
+C:\Users\Spencer\Documents\Whitney's Documents\School\C# 2\Lab3\Lab3 - FINAL\ICT711_Lab3\obj\Debug\ICT711_Lab3.Properties.Resources.resources
+C:\Users\Spencer\Documents\Whitney's Documents\School\C# 2\Lab3\Lab3 - FINAL\ICT711_Lab3\obj\Debug\ICT711_Lab3.csproj.GenerateResource.Cache
