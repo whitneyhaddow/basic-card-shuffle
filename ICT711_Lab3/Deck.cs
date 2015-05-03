@@ -12,8 +12,7 @@ namespace ICT711_Lab3
         private int rank;
         public static List<string> shuffledDeck = new List<string>();
         int count = 0;
-
-       //WH
+        
         public int Count
         {
             get
@@ -26,7 +25,6 @@ namespace ICT711_Lab3
      
         public Deck() {}
 
-        //MD and WH
         public void PopulateDeck()
         {
             int s;
@@ -47,20 +45,17 @@ namespace ICT711_Lab3
                 }
             }
         }
-
-       //MD
+        
         public string GetShuffledDeck(int i)
         {
             return shuffledDeck.ElementAt(i);
         }
 
-       //MD and WH
         public int GetShuffledDeckLength()
         {
             return shuffledDeck.Count();
         }
 
-       //MD
         public string Deal()
         {
                string topCard = shuffledDeck.ElementAt(0);
@@ -70,7 +65,6 @@ namespace ICT711_Lab3
         }
 
         //indexer
-       //WH
         public string this[int position]
         {
             get
@@ -87,7 +81,6 @@ namespace ICT711_Lab3
             }
         }
 
-        //MD
         public void Shuffle()
         {
             int n1;
