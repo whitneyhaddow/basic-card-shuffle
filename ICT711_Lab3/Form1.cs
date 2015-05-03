@@ -17,7 +17,6 @@ namespace ICT711_Lab3
     * **********************************************************/
     public partial class Form1 : Form
     {
-       //WH
         Deck d = new Deck();
         Player p = new Player();
         int numOfCards;
@@ -42,7 +41,6 @@ namespace ICT711_Lab3
         public void btnDeal_Click(object sender, EventArgs e)
         {
             
-            //WH
             if (d.Count < (Player.HAND_COUNT * Player.NUM_PLAYERS)) 
             {
                 MessageBox.Show("There are not enough cards left in the deck to deal again."); 
@@ -62,7 +60,6 @@ namespace ICT711_Lab3
                 p.DealHands();
 
                                
-               //MD
                     for (count = 0; count < 5; count++)
                     {
                 
@@ -79,7 +76,6 @@ namespace ICT711_Lab3
             }
         }
 
-       //MD
         public void DisplayCards() 
         {
             numOfCards = d.GetShuffledDeckLength();
@@ -97,13 +93,11 @@ namespace ICT711_Lab3
 
         
 
-        //WH
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-       //WH
         private void btnClear_Click(object sender, EventArgs e)
         {
             //clear lists
