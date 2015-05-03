@@ -1,125 +1,99 @@
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace ICT711_Lab3
 {
-    /***********************************************************
-    * This form displays a 52 card deck and allows shuffling as
-    * well as dealing to 4 players.
-    * Created December 2014 by Whitney Haddow and Michael Dupuis
-    * **********************************************************/
-    public partial class Form1 : Form
+    class Deck
     {
-        Deck d = new Deck();
-        Player p = new Player();
-        int numOfCards;
+        private int suit;
+        private int rank;
+        public static List<Card> shuffledDeck = new List<Card>();
+        int count = 0;
 
-        public Form1()
+        public int Count
         {
-            InitializeComponent();
-        }
-
-        public void Form1_Load(object sender, EventArgs e)
-        {
-            d.PopulateDeck();
-            DisplayCards();
-        }
-
-        public void btnShuffle_Click(object sender, EventArgs e)
-        {
-            d.Shuffle();
-            DisplayCards();
-        }
-
-        public void btnDeal_Click(object sender, EventArgs e)
-        {
-            if (d.Count < (Player.HAND_COUNT * Player.NUM_PLAYERS)) 
+            get
             {
-                MessageBox.Show("There are not enough cards left in the deck to deal again."); 
-                btnDeal.Enabled = false;
-            }
-            else
-            {
-                Card card;
-                int count;
-
-                p.ClearHands();
-                lstP1.Items.Clear();
-                lstP2.Items.Clear();
-                lstP3.Items.Clear();
-                lstP4.Items.Clear();
-
-                p.DealHands();
-
-                    for (count = 0; count < 5; count++)
-                    {
-                
-                        card = p.GetDealtHandP1(count);
-                        lstP1.Items.Add(card);
-                        card = p.GetDealtHandP2(count);
-                        lstP2.Items.Add(card);
-                        card = p.GetDealtHandP3(count);
-                        lstP3.Items.Add(card);
-                        card = p.GetDealtHandP4(count);
-                        lstP4.Items.Add(card);
-                    }
-                    DisplayCards();
+                return shuffledDeck.Count;
             }
         }
 
-        public void DisplayCards() 
+        Random sourceGen = new Random();
+     
+        public Deck() {}
+
+        public void PopulateDeck()
         {
-            numOfCards = d.GetShuffledDeckLength();
-            int count;
-            Card card;
+            int s;
+            int r;
+            Card c = new Card(suit, rank);
+            count = 0;
 
-            lstDeck.Items.Clear();
+            s = c.GetSuitLength();
+            r = c.GetRankLength();
 
-            for (count = 0; count < numOfCards; count++)
+            for (suit = 0; suit < s; suit++)
             {
-                card = d.GetShuffledDeck(count);
-                lstDeck.Items.Add(card);
+                for (rank = 0; rank < r; rank++)
+                {
+                    c = new Card(suit, rank);
+                    shuffledDeck.Add(c);
+                    count++;
+                }
             }
         }
 
-        private void btnExit_Click(object sender, EventArgs e)
+        public Card GetShuffledDeck(int i)
         {
-            this.Close();
+            return shuffledDeck.ElementAt(i);
         }
 
-        private void btnClear_Click(object sender, EventArgs e)
+        public int GetShuffledDeckLength()
         {
-            //clear lists
-            Player.p1.Clear();
-            Player.p2.Clear();
-            Player.p3.Clear();
-            Player.p4.Clear();
-            Deck.shuffledDeck.Clear();
-
-            //clear list boxes
-            lstDeck.Items.Clear();
-            lstP1.Items.Clear();
-            lstP2.Items.Clear();
-            lstP3.Items.Clear();
-            lstP4.Items.Clear();
-
-            
-            //start again with sequential deck
-            d.PopulateDeck();
-            DisplayCards();
-
-            //re-enable deal
-            btnDeal.Enabled = true;
-                    
+            return shuffledDeck.Count();
         }
 
+        public Card Deal()
+        {
+               Card topCard = shuffledDeck.ElementAt(0);
+               shuffledDeck.RemoveAt(0);
+               return topCard;
+           
+        }
 
+        //indexer
+        public Card this[int position]
+        {
+            get
+            {
+                if (position < 0 || position >= shuffledDeck.Count)
+                    throw new ArgumentOutOfRangeException("Invalid Position " + position.ToString());
+                else
+                    return shuffledDeck[position];
+            }
+
+            set
+            {
+                shuffledDeck[position] = value;
+            }
+        }
+
+        public void Shuffle()
+        {
+            int n1;
+            Card n2;
+
+            for (int a = 0; a < shuffledDeck.Count; a++)
+            {
+                n1 = sourceGen.Next(shuffledDeck.Count);
+                n2 = shuffledDeck[a];
+                shuffledDeck[a] = shuffledDeck[n1];
+                shuffledDeck[n1] = n2;
+            }
+
+        }
     }
 }
