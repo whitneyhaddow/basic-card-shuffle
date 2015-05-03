@@ -8,7 +8,6 @@ namespace ICT711_Lab3
 {
     class Card
     {
-       //WH
         private int suit;
         private int rank;
         
@@ -24,7 +23,6 @@ namespace ICT711_Lab3
             rank = r;
         }
 
-       //MD
         public int GetSuitLength()
         {
             return suitChar.Length;
@@ -35,7 +33,6 @@ namespace ICT711_Lab3
             return rankString.Length;
         }
 
-        //WH
         public override string ToString()
         {
             return suitChar[suit].ToString() + rankString[rank];
