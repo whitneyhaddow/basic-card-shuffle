@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,16 +12,15 @@ namespace ICT711_Lab3
         public const int NUM_PLAYERS = 4;
         Deck d = new Deck();
 
-        public static List<string> p1 = new List<string>();
-        public static List<string> p2 = new List<string>();
-        public static List<string> p3 = new List<string>();
-        public static List<string> p4 = new List<string>();
+        public static List<Card> p1 = new List<Card>();
+        public static List<Card> p2 = new List<Card>();
+        public static List<Card> p3 = new List<Card>();
+        public static List<Card> p4 = new List<Card>();
 
         public Player() { }
 
         public void DealHands()
         {
-
             try //prevent from crashing
             {
                 int count;
@@ -40,20 +39,19 @@ namespace ICT711_Lab3
             }
         }
 
-       
-        public string GetDealtHandP1(int i)
+        public Card GetDealtHandP1(int i)
         {
             return p1.ElementAt(i);
         }
-        public string GetDealtHandP2(int i)
+        public Card GetDealtHandP2(int i)
         {
             return p2.ElementAt(i);
         }
-        public string GetDealtHandP3(int i)
+        public Card GetDealtHandP3(int i)
         {
             return p3.ElementAt(i);
         }
-        public string GetDealtHandP4(int i)
+        public Card GetDealtHandP4(int i)
         {
             return p4.ElementAt(i);
         }
