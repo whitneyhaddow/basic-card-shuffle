@@ -8,7 +8,6 @@ namespace ICT711_Lab3
 {
     class Player
     {
-       //MD
         public const int HAND_COUNT = 5;
         public const int NUM_PLAYERS = 4;
         Deck d = new Deck();
@@ -23,12 +22,10 @@ namespace ICT711_Lab3
         public void DealHands()
         {
 
-           //WH
             try //prevent from crashing
             {
                 int count;
 
-                //MD
                 for (count = 0; count < HAND_COUNT; count++)
                 {
                     p1.Add(d.Deal());
@@ -44,7 +41,6 @@ namespace ICT711_Lab3
         }
 
        
-        //MD
         public string GetDealtHandP1(int i)
         {
             return p1.ElementAt(i);
@@ -62,7 +58,6 @@ namespace ICT711_Lab3
             return p4.ElementAt(i);
         }
 
-        //WH and MD
         public void ClearHands()
         {
             p1.Clear();
