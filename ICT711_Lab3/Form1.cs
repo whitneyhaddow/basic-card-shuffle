@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -40,7 +40,6 @@ namespace ICT711_Lab3
 
         public void btnDeal_Click(object sender, EventArgs e)
         {
-            
             if (d.Count < (Player.HAND_COUNT * Player.NUM_PLAYERS)) 
             {
                 MessageBox.Show("There are not enough cards left in the deck to deal again."); 
@@ -48,7 +47,7 @@ namespace ICT711_Lab3
             }
             else
             {
-                string line;
+                Card card;
                 int count;
 
                 p.ClearHands();
@@ -59,18 +58,17 @@ namespace ICT711_Lab3
 
                 p.DealHands();
 
-                               
                     for (count = 0; count < 5; count++)
                     {
                 
-                        line = p.GetDealtHandP1(count);
-                        lstP1.Items.Add(line);
-                        line = p.GetDealtHandP2(count);
-                        lstP2.Items.Add(line);
-                        line = p.GetDealtHandP3(count);
-                        lstP3.Items.Add(line);
-                        line = p.GetDealtHandP4(count);
-                        lstP4.Items.Add(line);
+                        card = p.GetDealtHandP1(count);
+                        lstP1.Items.Add(card);
+                        card = p.GetDealtHandP2(count);
+                        lstP2.Items.Add(card);
+                        card = p.GetDealtHandP3(count);
+                        lstP3.Items.Add(card);
+                        card = p.GetDealtHandP4(count);
+                        lstP4.Items.Add(card);
                     }
                     DisplayCards();
             }
@@ -80,18 +78,16 @@ namespace ICT711_Lab3
         {
             numOfCards = d.GetShuffledDeckLength();
             int count;
-            string line;
+            Card card;
 
             lstDeck.Items.Clear();
 
             for (count = 0; count < numOfCards; count++)
             {
-                line = d.GetShuffledDeck(count);
-                lstDeck.Items.Add(line);
+                card = d.GetShuffledDeck(count);
+                lstDeck.Items.Add(card);
             }
         }
-
-        
 
         private void btnExit_Click(object sender, EventArgs e)
         {
